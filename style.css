@@ -1,0 +1,48 @@
+.gradient-background {
+   background-color: #85FFBD;
+   background-image: linear-gradient(253deg, #85FFBD 0%, #FFFB7D 83%);
+    animation: gradient-animation 18s ease infinite;
+  }
+  
+  @keyframes gradient-animation {
+    0% {
+      background-position: 0% 50%;
+    }
+    50% {
+      background-position: 100% 50%;
+    }
+    100% {
+      background-position: 0% 50%;
+    }
+  }
+  body{
+    background-image: url(./pics/back.jpg);
+  }
+  h1{
+    font-family: 'Libre Baskerville', serif;
+  }
+  .lead{
+    font-family: 'Caveat', cursive;
+    font-size: 50px;
+  }
+ .skills{
+  border-radius: 25%;
+  padding-right: 10px;
+ }
+ .contact{
+  padding-top: 50px;
+  text-align: center;
+ }
+ .btn{
+  background-color: red;
+  font-size: 25px;
+  font-family: 'Libre Baskerville', serif;
+  margin-top: 25px;
+ }
+#features p{
+  font-family: 'Caveat', cursive;
+  font-size: 25px;
+}
+#features h2{
+  font-family: 'Libre Baskerville', serif;
+}
